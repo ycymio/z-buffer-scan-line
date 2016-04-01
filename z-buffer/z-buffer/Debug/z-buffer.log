@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/3/31 20:34:17。
+项目“C:\Users\Administrator\Desktop\work\Project\z-buffer\z-buffer\z-buffer.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在创建“Debug\z-buffer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+  main.cpp
+c:\users\administrator\desktop\work\project\z-buffer\z-buffer\main.cpp(82): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\desktop\work\project\z-buffer\z-buffer\main.cpp(99): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\desktop\work\project\z-buffer\z-buffer\main.cpp(108): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\desktop\work\project\z-buffer\z-buffer\main.cpp(165): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\desktop\work\project\z-buffer\z-buffer\main.cpp(172): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\desktop\work\project\z-buffer\z-buffer\main.cpp(190): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\desktop\work\project\z-buffer\z-buffer\main.cpp(211): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\desktop\work\project\z-buffer\z-buffer\main.cpp(260): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+c:\users\administrator\desktop\work\project\z-buffer\z-buffer\main.cpp(263): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+ResourceCompile:
+  所有输出均为最新。
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\work\Project\z-buffer\Debug\z-buffer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Administrator\Desktop\work\Project\z-buffer\Debug\z-buffer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\work\Project\z-buffer\Debug\z-buffer.lib" /MACHINE:X86 "Debug\z-buffer.res"
+  Debug\loadfiles.obj
+  Debug\main.obj
+  Debug\traverselist.obj
+  z-buffer.vcxproj -> C:\Users\Administrator\Desktop\work\Project\z-buffer\Debug\z-buffer.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\z-buffer.unsuccessfulbuild”。
+  正在对“Debug\z-buffer.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\work\Project\z-buffer\z-buffer\z-buffer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.80
