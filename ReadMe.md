@@ -9,13 +9,13 @@ VS 2010 + OpenGL, 涉及到OpenGL的一些库。
 文件存储在源代码文件夹下，直接输入文件名，或者为默认文件名。为了显示完全，这里需要提供一个xmax与ymax的最大比，但这个值设置不好还是会显示不出来。由于取了整，坐标范围都在(0,1)之间的这种显示不出，尽量放大倍数。
 
 #### 数据结构：
-Faces3ui：存储对应点的序号
-Triangle3vec：存储三角形的三个点
-DepthColor: 存储一个点的最大深度和对应颜色
-ClassifiedTriangles：分类多边形表
-ClassifiedLines：分类边表
-ActivatedTriangles：活化多边形表
-ActivatedLines：活化边表
++ Faces3ui：存储对应点的序号
++ Triangle3vec：存储三角形的三个点
++ DepthColor: 存储一个点的最大深度和对应颜色
++ ClassifiedTriangles：分类多边形表
++ ClassifiedLines：分类边表
++ ActivatedTriangles：活化多边形表
++ ActivatedLines：活化边表
 
 #### P.S.
 为了调整图像被看见，可能每根扫描线之间有间隙，没有进行处理，面片坐标数值较大时间隙不明显。
